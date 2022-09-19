@@ -1,1 +1,5 @@
 /.vscode
+/NUnitTests/bin
+/NUnitTests/obj
+/SeleniumLibrary/bin
+/SeleniumLibrary/obj
