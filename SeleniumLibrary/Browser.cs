@@ -6,6 +6,7 @@ using OpenQA.Selenium.Firefox;
 namespace SeleniumLibrary;
 public class Browser
 {
+   // TODO parameterize this value so it's not hardcoded into the Browser class
    private const string WEBDRIVER_FOLDER = @"C:\Users\evan_\Code\Selenium\WebDrivers";
    private IWebDriver wd { get; set; }
    public IWebDriver WebDriver => wd;
